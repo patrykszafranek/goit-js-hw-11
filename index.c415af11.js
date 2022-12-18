@@ -1,0 +1,2 @@
+const e=document.querySelector(".back-to-top"),o=()=>document.documentElement||document.body;document.addEventListener("scroll",(()=>{console.log("Scroll Height: ",o().scrollHeight),console.log("Client Height: ",o().clientHeight);o().scrollTop,o().scrollHeight,o().clientHeight;o().scrollTop>100?e.classList.remove("hidden"):e.classList.add("hidden")})),e.addEventListener("click",(()=>{document.body.scrollIntoView({behavior:"smooth"})}));
+//# sourceMappingURL=index.c415af11.js.map

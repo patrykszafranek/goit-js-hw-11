@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".back-to-top"),o=function(){return document.documentElement||document.body};document.addEventListener("scroll",(function(){console.log("Scroll Height: ",o().scrollHeight),console.log("Client Height: ",o().clientHeight);o().scrollTop,o().scrollHeight,o().clientHeight;o().scrollTop>100?e.classList.remove("hidden"):e.classList.add("hidden")})),e.addEventListener("click",(function(){document.body.scrollIntoView({behavior:"smooth"})}))}();
+//# sourceMappingURL=index.223fa353.js.map
