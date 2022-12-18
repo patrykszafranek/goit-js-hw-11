@@ -42,6 +42,7 @@ function renderImages(photos) {
 
   if (pageNumber <= 1) {
     leftHits = totalHits;
+    btnLoadMore.classList.toggle('is-hidden');
     if (totalHits <= 0) {
       Notiflix.Notify.failure(
         `Sorry, there are no images matching your search query. Please try again.`
